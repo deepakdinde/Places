@@ -136,14 +136,13 @@ class DetailScreen(carContext: CarContext, private val placeId: Int) : Screen(ca
                 ).build()
             )
             .setOnClickListener {
-                screenManager.push(NavigationPOI(carContext, placeId))
-                /*val phoneNumber = place.mobileNumber  // Ensure that the place has a phoneNumber field
+                val phoneNumber = place.mobileNumber  // Ensure that the place has a phoneNumber field
 
                 val callIntent = Intent(Intent.ACTION_DIAL).apply {
                     data = Uri.parse("tel:$phoneNumber")
                 }
                 callIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                carContext.startActivity(callIntent)*/
+                carContext.startActivity(callIntent)
                 //screenManager.push(SignInScreen(carContext))
             }
             .build()

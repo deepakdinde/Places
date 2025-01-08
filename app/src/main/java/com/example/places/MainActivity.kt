@@ -43,7 +43,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.example.places.data.PlacesRepository
 import com.example.places.data.model.Place
-import com.example.places.data.model.toIntent
 import com.example.places.ui.theme.PlacesTheme
 
 class MainActivity : ComponentActivity() {

@@ -48,7 +48,8 @@ class NavigationPOI (carContext: CarContext, private val placeId: Int) : Screen(
             .build()
 
 
-        val mapController = MapController.Builder().setMapActionStrip(ActionStrip.Builder()
+        val mapController = MapController.Builder()
+            /*.setMapActionStrip(ActionStrip.Builder()
             .addAction(
                 Action.Builder()
                     .setTitle("Searchh")
@@ -57,7 +58,7 @@ class NavigationPOI (carContext: CarContext, private val placeId: Int) : Screen(
                     }
                     .build()
             )
-            .build())
+            .build())*/
 
 
         return MapWithContentTemplate.Builder()
@@ -74,42 +75,6 @@ class NavigationPOI (carContext: CarContext, private val placeId: Int) : Screen(
                 .build())*/
             .setMapController(mapController.build())
             .build()
-
-        /*return NavigationTemplate.Builder()
-                            //.setNavigationInfo(routingInfo)
-                            .setActionStrip(
-                                ActionStrip.Builder()
-                                    .addAction(
-                                        Action.Builder()
-                                            .setTitle("Search")
-                                            .setOnClickListener {
-                                                // Handle search button click
-                                            }
-                                            .build()
-                    )
-                    .build()
-            )
-            .setMapActionStrip(ActionStrip.Builder()
-                .addAction(Action.PAN)
-                .build())
-            //.setHeaderAction(Action.APP_ICON) // Add header action
-            .build()*/
-
-
-        /*return NavigationTemplate.Builder()
-            .setActionStrip(ActionStrip.Builder()
-                .addAction(Action.BACK)
-                .addAction(Action.APP_ICON)
-                .addAction(Action.PAN)
-                .addAction(Action.Builder().setTitle("SomeButton")
-                    .build())
-                .build()
-            )
-            .setMapActionStrip(ActionStrip.Builder()
-                .addAction(Action.PAN)
-                .build()
-            )
-            .build()*/
     }
 
 }
