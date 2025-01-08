@@ -26,9 +26,12 @@ import androidx.car.app.model.ActionStrip;
 import androidx.car.app.model.CarColor;
 import androidx.car.app.model.CarIcon;
 import androidx.car.app.model.Distance;
+import androidx.car.app.model.Pane;
+import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 import androidx.car.app.navigation.model.Destination;
 import androidx.car.app.navigation.model.Lane;
+import androidx.car.app.navigation.model.MapTemplate;
 import androidx.car.app.navigation.model.MessageInfo;
 import androidx.car.app.navigation.model.NavigationTemplate;
 import androidx.car.app.navigation.model.RoutingInfo;
@@ -39,6 +42,7 @@ import androidx.core.graphics.drawable.IconCompat;
 import com.example.android.cars.carappservice.R;
 import com.example.places.carappservice.Navigation.model.Instruction;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -133,9 +137,9 @@ public final class NavigationScreen extends Screen {
 
     @NonNull
     @Override
-    public Template onGetTemplate() {
+/*    public Template onGetTemplate() {
         mSurfaceRenderer.updateMarkerVisibility(
-                /* showMarkers=*/ false, /* numMarkers=*/ 0, /* activeMarker=*/ -1);
+                *//* showMarkers=*//* false, *//* numMarkers=*//* 0, *//* activeMarker=*//* -1);
 
         NavigationTemplate.Builder builder = new NavigationTemplate.Builder();
         builder.setBackgroundColor(CarColor.SECONDARY);
@@ -297,6 +301,57 @@ public final class NavigationScreen extends Screen {
         }
 
         return builder.build();
+    }*/
+
+    public Template onGetTemplate() {
+
+        return new MapTemplate.Builder()
+                //.setHeaderAction(Action.BACK)
+                .setActionStrip(
+                        new ActionStrip.Builder()
+                                .addAction(new Action.Builder().setTitle("Filter").build())
+                                .build()
+                )
+                //.setMapController(MapController.create()) // Customize map interactions
+                .setPane(
+                        new Pane.Builder()
+                                .addRow(
+                                        new Row.Builder().setTitle("Location A").build()
+                                )
+                                .addRow(
+                                        new Row.Builder().setTitle("Location B").build()
+                                )
+                                .build()
+                )
+                .build();
+
+
+        /*return new  NavigationTemplate.Builder()
+                .setActionStrip(
+                        new ActionStrip.Builder()
+                                .addAction(new Action.Builder().setTitle("Search").build())
+                                .build()
+                )
+                *//*.setDestinationTravelEstimate(
+                        new TravelEstimate.Builder(Duration.ofMinutes(10), Distance.create(5.0, Distance.UNIT_KILOMETERS))
+                                .build()
+                )*//*
+                .build();*/
+
+        /*return new NavigationTemplate.Builder()
+                .setActionStrip(new ActionStrip.Builder()
+                        .addAction(Action.BACK)
+                        .addAction(Action.APP_ICON)
+                        .addAction(Action.PAN)
+                        .addAction(new Action.Builder().setTitle("SomeButton")
+                                .build())
+                        .build()
+                )
+                .setMapActionStrip(new ActionStrip.Builder()
+                        .addAction(Action.PAN)
+                        .build()
+                )
+                .build();*/
     }
 
     private boolean isRerouting() {

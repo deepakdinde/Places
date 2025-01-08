@@ -97,24 +97,30 @@ class DetailScreen(carContext: CarContext, private val placeId: Int) : Screen(ca
             // you must use the CarContext.ACTION_NAVIGATE action and not Intent.ACTION_VIEW like
             // you might on a phone.
             .setOnClickListener {
-                val latitude = place.latitude
+
+                screenManager.push(NavigationPOI(carContext, placeId))
+
+
+               /* val latitude = place.latitude
                 val longitude = place.longitude
 
-                /* val geoUri = Uri.parse("geo:$latitude,$longitude?q=$latitude,$longitude")
+                 val geoUri = Uri.parse("geo:$latitude,$longitude?q=$latitude,$longitude")
                  Log.d("uj","Lat $latitude Long $longitude")
                 // val geoUri = Uri.parse("geo:0,0?q=$latitude,$longitude")
                  val intent = Intent(Intent.ACTION_VIEW, geoUri).apply {
                      setPackage("com.google.android.apps.maps")
                  }
                  intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                 carContext.startActivity(intent)*/
+                 carContext.startActivity(intent)
 
                 var URL =
                     "https://www.google.com/maps/dir/?api=1&travelmode=driving&dir_action=navigate&destination=18.5569149,73.7666521&origin=$latitude,$longitude"
                 var location = Uri.parse(URL)
                 var mapIntent = Intent(Intent.ACTION_VIEW, location)
                 mapIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                carContext.startActivity(mapIntent)
+                carContext.startActivity(mapIntent)*/
+
+
             }
             .build()
 
@@ -130,6 +136,7 @@ class DetailScreen(carContext: CarContext, private val placeId: Int) : Screen(ca
                 ).build()
             )
             .setOnClickListener {
+                screenManager.push(NavigationPOI(carContext, placeId))
                 /*val phoneNumber = place.mobileNumber  // Ensure that the place has a phoneNumber field
 
                 val callIntent = Intent(Intent.ACTION_DIAL).apply {

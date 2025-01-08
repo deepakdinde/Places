@@ -25,6 +25,7 @@ import androidx.car.app.Screen
 import androidx.car.app.Session
 import androidx.car.app.validation.HostValidator
 import com.example.places.carappservice.screen.MainScreen
+import com.example.places.carappservice.screen.MainScreenPOC
 
 
 class PlacesCarAppService : CarAppService() {
@@ -41,6 +42,7 @@ class PlacesCarAppService : CarAppService() {
 class PlacesSession : Session() {
     override fun onCreateScreen(intent: Intent): Screen {
         return MainScreen(carContext)
+        //return MainScreenPOC(carContext)
     }
 }
 

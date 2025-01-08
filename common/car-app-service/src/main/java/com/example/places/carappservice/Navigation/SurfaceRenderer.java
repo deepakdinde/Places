@@ -208,8 +208,8 @@ public final class SurfaceRenderer implements DefaultLifecycleObserver {
         mMarkerPaint.setStyle(Style.STROKE);
         mMarkerPaint.setStrokeWidth(3);
 
-/*        mBackgroundMap = BitmapFactory.decodeResource(carContext.getResources(),
-                R.drawable.map);*/
+        mBackgroundMap = BitmapFactory.decodeResource(carContext.getResources(),
+                R.drawable.map);
         lifecycle.addObserver(this);
     }
 

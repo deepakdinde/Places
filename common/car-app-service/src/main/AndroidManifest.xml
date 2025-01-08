@@ -68,16 +68,18 @@
             android:value="1" />
 
 
-        <!--<service
+        <service
             android:name="com.example.places.carappservice.PlacesCarAppService"
             android:exported="true">
             <intent-filter>
                 <action android:name="androidx.car.app.CarAppService" />
+                <category android:name="androidx.car.app.category.NAVIGATION"/>
+                <category android:name="androidx.car.app.category.FEATURE_CLUSTER"/>
                 <category android:name="androidx.car.app.category.POI" />
             </intent-filter>
-        </service>-->
+        </service>
 
-        <service
+        <!--<service
             android:name="com.example.places.carappservice.Navigation.NavigationCarAppService"
             android:foregroundServiceType="location"
             android:exported="true">
@@ -93,15 +95,7 @@
             android:name="com.example.places.carappservice.Navigation.nav.NavigationService"
             android:enabled="true"
             android:exported="true">
-        </service>
-
-        <!--<service
-            android:name="com.example.places.carappservice.Navigation.nav.NavigationService"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="androidx.car.app.CarAppService" />
-                <category android:name="androidx.car.app.category.POI" />
-            </intent-filter>
         </service>-->
+
     </application>
 </manifest>
