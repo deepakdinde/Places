@@ -18,7 +18,6 @@ import androidx.car.app.navigation.model.MapWithContentTemplate
 import androidx.car.app.navigation.model.NavigationTemplate
 import androidx.car.app.navigation.model.RoutingInfo
 import androidx.car.app.navigation.model.TravelEstimate
-import com.google.android.gms.maps.model.CameraPosition
 import java.time.Duration
 import java.time.ZoneId
 import java.time.ZonedDateTime
