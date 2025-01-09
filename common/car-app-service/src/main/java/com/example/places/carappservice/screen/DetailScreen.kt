@@ -30,6 +30,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.IconCompat
 import com.example.android.cars.carappservice.R
+import com.example.places.carappservice.NavPOC.MapWithContentDemoScreen
 import com.example.places.data.PlacesRepository
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
@@ -98,7 +99,8 @@ class DetailScreen(carContext: CarContext, private val placeId: Int) : Screen(ca
             // you might on a phone.
             .setOnClickListener {
 
-                screenManager.push(NavigationPOI(carContext, placeId))
+                //screenManager.push(NavigationPOI(carContext, placeId))
+                screenManager.push(MapWithContentDemoScreen(carContext))
 
 
                /* val latitude = place.latitude

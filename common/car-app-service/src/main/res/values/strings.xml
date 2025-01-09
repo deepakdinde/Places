@@ -38,4 +38,489 @@
   <string name="settings_five_pref" translatable="false">setting_five</string>
   <string name="settings_six_label" translatable="false">Setting Six</string>
   <string name="settings_six_pref" translatable="false">setting_six</string>
+
+
+
+  <!-- Action Titles -->
+  <string name="back_caps_action_title" translatable="false">BACK</string>
+  <string name="home_caps_action_title" translatable="false">HOME</string>
+  <string name="exit_action_title" translatable="false">Exit</string>
+  <string name="refresh_action_title" translatable="false">Refresh</string>
+  <string name="close_action_title" translatable="false">Close</string>
+  <string name="grant_access_action_title" translatable="false">Grant Access</string>
+  <string name="enable_location_action_title" translatable="false">Enable Location</string>
+  <string name="cancel_action_title" translatable="false">Cancel</string>
+  <string name="stop_action_title" translatable="false">Stop</string>
+  <string name="more_action_title" translatable="false">More</string>
+  <string name="call_action_title" translatable="false">Call</string>
+  <string name="primary_action_title" translatable="false">Primary</string>
+  <string name="options_action_title" translatable="false">Options</string>
+  <string name="search_action_title" translatable="false">Search</string>
+  <string name="checked_action_title" translatable="false">Checked</string>
+  <string name="unchecked_action_title" translatable="false">Unchecked</string>
+  <string name="on_action_title" translatable="false">On</string>
+  <string name="off_action_title" translatable="false">Off</string>
+  <string name="settings_action_title" translatable="false">Settings</string>
+  <string name="accept_action_title" translatable="false">Accept</string>
+  <string name="reject_action_title" translatable="false">Reject</string>
+  <string name="ok_action_title" translatable="false">OK</string>
+  <string name="throw_action_title" translatable="false">Throw</string>
+  <string name="commute_action_title" translatable="false">Commute</string>
+  <string name="sign_out_action_title" translatable="false">Sign out</string>
+  <string name="try_anyway_action_title" translatable="false">Try Anyway</string>
+  <string name="yes_action_title" translatable="false">Yes</string>
+  <string name="no_action_title" translatable="false">No</string>
+  <string name="disable_all_rows" translatable="false">Disable All Rows</string>
+  <string name="enable_all_rows" translatable="false">Enable All Rows</string>
+
+  <!-- Toast Messages -->
+  <string name="bug_reported_toast_msg" translatable="false">Bug reported!</string>
+  <string name="zoomed_in_toast_msg" translatable="false">Zoomed in</string>
+  <string name="zoomed_out_toast_msg" translatable="false">Zoomed out</string>
+  <string name="triggered_toast_msg" translatable="false">Triggered</string>
+  <string name="primary_toast_msg" translatable="false">Primary button pressed</string>
+  <string name="search_toast_msg" translatable="false">Search button pressed</string>
+  <string name="options_toast_msg" translatable="false">Options button pressed</string>
+  <string name="favorite_toast_msg" translatable="false">Favorite!</string>
+  <string name="not_favorite_toast_msg" translatable="false">Not a favorite!</string>
+  <string name="nav_requested_toast_msg" translatable="false">Navigation Requested</string>
+  <string name="selected_route_toast_msg" translatable="false">Selected route</string>
+  <string name="visible_routes_toast_msg" translatable="false">Visible routes</string>
+  <string name="second_item_toast_msg" translatable="false">Clicked second item</string>
+  <string name="third_item_checked_toast_msg" translatable="false">Third item checked</string>
+  <string name="fifth_item_checked_toast_msg" translatable="false">Fifth item checked</string>
+  <string name="sixth_item_toast_msg" translatable="false">Clicked sixth item</string>
+  <string name="settings_toast_msg" translatable="false">Clicked Settings</string>
+  <string name="parked_toast_msg" translatable="false">Parked action</string>
+  <string name="more_toast_msg" translatable="false">Clicked More</string>
+  <string name="commute_toast_msg" translatable="false">Commute button pressed</string>
+  <string name="grant_location_permission_toast_msg" translatable="false">Grant location Permission to see current location</string>
+  <string name="sign_in_with_google_toast_msg" translatable="false">Sign-in with Google starts here</string>
+  <string name="changes_selection_to_index_toast_msg_prefix" translatable="false">Changed selection to index</string>
+  <string name="yes_action_toast_msg" translatable="false">Yes button pressed!</string>
+  <string name="no_action_toast_msg" translatable="false">No button pressed!</string>
+  <string name="alert_timeout_toast_msg" translatable="false">Alert is timed out!</string>
+
+  <!-- Row text -->
+  <string name="first_row_title" translatable="false">Row with a large image and long text long text long text long text long text</string>
+  <string name="first_row_text" translatable="false">Text text text</string>
+  <string name="other_row_title_prefix" translatable="false">Row title </string>
+  <string name="other_row_text" translatable="false">Row text</string>
+
+  <!-- Place Details Screen -->
+  <string name="navigate" translatable="false">Navigate</string>
+  <string name="dial" translatable="false">Dial</string>
+  <string name="address" translatable="false">Address</string>
+  <string name="phone" translatable="false">Phone</string>
+
+  <!-- CarHardwareDemoScreen -->
+  <string name="fail_start_nav" translatable="false">Failure starting navigation</string>
+  <string name="fail_start_dialer" translatable="false">Failure starting dialer</string>
+  <string name="car_hardware_demo_title" translatable="false">Car Hardware Demo</string>
+
+  <!-- CarHardwareInfoScreen -->
+  <string name="car_hardware_info" translatable="false">Car Hardware Information</string>
+  <string name="model_info" translatable="false">Model Information</string>
+  <string name="no_model_permission" translatable="false">No Model Permission</string>
+  <string name="manufacturer_unavailable" translatable="false">Manufacturer unavailable</string>
+  <string name="model_unavailable" translatable="false">Model unavailable</string>
+  <string name="year_unavailable" translatable="false">Year unavailable</string>
+  <string name="energy_profile" translatable="false">Energy Profile</string>
+  <string name="no_energy_profile_permission" translatable="false">No Energy Profile Permission</string>
+  <string name="fuel_types" translatable="false">Fuel Types</string>
+  <string name="unavailable" translatable="false">Unavailable</string>
+  <string name="ev_connector_types" translatable="false">EV Connector Types</string>
+
+  <!-- ColorDemoScreen -->
+  <string name="example_title" translatable="false">Example %d</string>
+  <string name="example_1_text" translatable="false">This text has a <annotation color="red" translatable="false">red</annotation> color</string>
+  <string name="example_2_text" translatable="false">This text has a <annotation color="green" translatable="false">green</annotation> color</string>
+  <string name="example_3_text" translatable="false">This text has a <annotation color="blue" translatable="false">blue</annotation> color</string>
+  <string name="example_4_text" translatable="false">This text has a <annotation color="yellow" translatable="false">yellow</annotation> color</string>
+  <string name="example_5_text" translatable="false">This text uses the primary color</string>
+  <string name="example_6_text" translatable="false">This text uses the secondary color</string>
+  <string name="color_demo" translatable="false">Color Demo</string>
+
+  <!-- ContentLimitsDemoScreen -->
+  <string name="list_limit" translatable="false">List Limit</string>
+  <string name="grid_limit" translatable="false">Grid Limit</string>
+  <string name="pane_limit" translatable="false">Pane Limit</string>
+  <string name="place_list_limit" translatable="false">Place List Limit</string>
+  <string name="route_list_limit" translatable="false">Route List Limit</string>
+  <string name="content_limits" translatable="false">Content Limits</string>
+  <string name="content_limits_demo_title" translatable="false">Content Limits Demo</string>
+
+  <!-- FinishAppScreen -->
+  <string name="finish_app_msg" translatable="false">This will finish the app, and when you return it will pre-seed a permission screen</string>
+  <string name="finish_app_title" translatable="false">Finish App Demo</string>
+  <string name="finish_app_demo_title" translatable="false">Pre-seed the Permission Screen on next run Demo</string>
+  <string name="preseed_permission_app_title" translatable="false">Pre-seed permission App Demo</string>
+  <string name="preseed_permission_demo_title" translatable="false">Pre-seed the Permission Screen on next run Demo</string>
+
+  <!-- LoadingDemoScreen -->
+  <string name="loading_demo_title" translatable="false">Loading Demo</string>
+  <string name="loading_demo_row_title" translatable="false">Loading Complete!</string>
+
+  <!-- PopToDemoScreen -->
+  <string name="pop_to_root" translatable="false">Pop to root</string>
+  <string name="pop_to_marker" translatable="false">Pop to Misc Demo Marker</string>
+  <string name="push_stack" translatable="false">Push further in stack</string>
+  <string name="pop_to_prefix" translatable="false">Pop To </string>
+  <string name="pop_to_title" translatable="false">PopTo Demo</string>
+
+  <!-- RequestPermissionScreen -->
+  <string name="package_not_found_error_msg" translatable="false">Package Not found.</string>
+  <string name="permissions_granted_msg" translatable="false">All permissions have been granted. Please revoke permissions from Settings.</string>
+  <string name="needs_access_msg_prefix" translatable="false">The app needs access to the following permissions:\n</string>
+  <string name="phone_screen_permission_msg" translatable="false">Grant Permission on the phone screen</string>
+  <string name="enable_location_permission_on_device_msg" translatable="false">Enable Location Permissions on device</string>
+  <string name="enable_location_permission_on_phone_msg" translatable="false">Enable location on the phone screen</string>
+  <string name="required_permissions_title" translatable="false">Required Permissions</string>
+  <string name="request_permissions_title" translatable="false">Request Permission Demo</string>
+
+  <!-- ReservationCancelledScreen -->
+  <string name="cancel_reservation_title" translatable="false">Cancel Reservation Screen</string>
+  <string name="reservation_cancelled_msg" translatable="false">Reservation canceled</string>
+
+  <!-- ResultDemoScreen -->
+  <string name="result_demo_title" translatable="false">Result demo</string>
+  <string name="not_started_for_result_msg" translatable="false">This app was not started for result</string>
+  <string name="started_for_result_msg" translatable="false">This app was called for result from %s. Please select the result to send back to the caller</string>
+
+  <!-- ArrivedDemoScreen -->
+  <string name="arrived_exclamation_msg" translatable="false">Arrived!</string>
+  <string name="arrived_address_msg" translatable="false">Google Bellevue Office\n1120 112th Ave NE</string>
+
+  <!-- RoutingDemoModels -->
+  <string name="current_step_cue" translatable="false">Roy st 520</string>
+  <string name="next_step_cue" translatable="false">I5 Aurora Ave N</string>
+  <string name="travel_est_trip_text" translatable="false">Pick Up Alice</string>
+
+  <!-- NotificationDemoScreen -->
+  <string name="send_notification_title" translatable="false">Send a notification</string>
+  <string name="start_notifications_title" translatable="false">Start notifications</string>
+  <string name="stop_notifications_title" translatable="false">Stop notifications</string>
+  <string name="notification_title" translatable="false">Notification</string>
+  <string name="importance_title" translatable="false">Importance</string>
+  <string name="category_title" translatable="false">Category</string>
+  <string name="ongoing_title" translatable="false">Ongoing</string>
+  <string name="default_importance" translatable="false">Default</string>
+  <string name="high_importance" translatable="false">High</string>
+  <string name="low_importance" translatable="false">Low</string>
+  <string name="unknown_importance" translatable="false">Unknown</string>
+  <string name="notification_demo" translatable="false">Notification Demo</string>
+
+  <!-- MiscDemoScreen -->
+  <string name="misc_demo_title" translatable="false">Misc Demos</string>
+
+  <!-- NavigationTemplateDemoScreen -->
+  <string name="navigating_demo_title" translatable="false">Navigating Demo</string>
+  <string name="arrived_demo_title" translatable="false">Arrived Demo</string>
+  <string name="junction_image_demo_title" translatable="false">Junction Image Demo</string>
+  <string name="nav_template_demos_title" translatable="false">Navigation Template Demos</string>
+
+  <!-- MapTemplateDemoScreen -->
+  <string name="map_template_pane_demo_title" translatable="false">Map Template with Pane Demo</string>
+  <string name="map_template_list_demo_title" translatable="false">Map Template with List Demo</string>
+
+  <!-- NavigationNotificationsDemoScreen -->
+  <string name="start_notification_title" translatable="false">Start Notification</string>
+  <string name="stop_notification_title" translatable="false">Stop Notification</string>
+  <string name="nav_notification_demo_title" translatable="false">Navigation Notification Demo</string>
+
+  <!-- NavigationNotificationService -->
+  <string name="go_straight" translatable="false">Go Straight</string>
+  <string name="turn_right" translatable="false">Turn Right</string>
+  <string name="take_520" translatable="false">Take 520</string>
+  <string name="gas_station" translatable="false">Gas Station</string>
+
+  <!-- RoutePreviewDemoScreen -->
+  <string name="short_route" translatable="false">Short route</string>
+  <string name="less_busy" translatable="false">Less busy</string>
+  <string name="hov_friendly" translatable="false">HOV friendly</string>
+  <string name="long_route" translatable="false">Long route</string>
+  <string name="continue_start_nav" translatable="false">Continue to start navigation</string>
+  <string name="continue_route" translatable="false">Continue to route</string>
+  <string name="routes_title" translatable="false">Routes</string>
+
+  <!-- NavigationDemosScreen -->
+  <string name="place_list_nav_template_demo_title" translatable="false">Place List Navigation Template Demo</string>
+  <string name="route_preview_template_demo_title" translatable="false">Route Preview Template Demo</string>
+  <string name="notification_template_demo_title" translatable="false">Notification Template Demo</string>
+  <string name="nav_map_template_demo_title" translatable="false">Navigation Template with map only Demo</string>
+  <string name="nav_demos_title" translatable="false">Navigation Demos</string>
+  <string name="navigation_alert_title" translatable="false">Still a speed trap?</string>
+  <string name="navigation_alert_subtitle" translatable="false">Reported 10m ago</string>
+
+  <!-- CarHardwareRenderer -->
+  <string name="no_toll_card_permission" translatable="false">No TollCard Permission.</string>
+  <string name="no_energy_level_permission" translatable="false">No EnergyLevel Permission.</string>
+  <string name="no_speed_permission" translatable="false">No Speed Permission.</string>
+  <string name="no_mileage_permission" translatable="false">No Mileage Permission.</string>
+  <string name="no_ev_status_permission" translatable="false">No EV status Permission.</string>
+  <string name="no_accelerometer_permission" translatable="false">No Accelerometer Permission.</string>
+  <string name="no_gyroscope_permission" translatable="false">No Gyroscope Permission.</string>
+  <string name="no_compass_permission" translatable="false">No Compass Permission.</string>
+  <string name="no_car_hardware_location" translatable="false">No CarHardwareLocation Permission.</string>
+  <string name="fetch_toll_info" translatable="false">Fetching Toll information.</string>
+  <string name="fetch_energy_level" translatable="false">Fetching Energy Level.</string>
+  <string name="fetch_speed" translatable="false">Fetching Speed.</string>
+  <string name="fetch_mileage" translatable="false">Fetching Mileage.</string>
+  <string name="fetch_ev_status" translatable="false">Fetching EV status.</string>
+  <string name="fetch_accelerometer" translatable="false">Fetching Accelerometer.</string>
+  <string name="fetch_gyroscope" translatable="false">Fetching Gyroscope.</string>
+  <string name="fetch_compass" translatable="false">Fetching Compass.</string>
+  <string name="fetch_location" translatable="false">Fetching Location.</string>
+  <string name="toll_card_state" translatable="false">Toll card state</string>
+  <string name="low_energy" translatable="false">Low energy</string>
+  <string name="range" translatable="false">Range</string>
+  <string name="fuel" translatable="false">Fuel</string>
+  <string name="battery" translatable="false">Battery</string>
+  <string name="display_speed" translatable="false">Display Speed</string>
+  <string name="raw_speed" translatable="false">Raw Speed</string>
+  <string name="unit" translatable="false">Unit</string>
+  <string name="odometer" translatable="false">Odometer</string>
+  <string name="ev_connected" translatable="false">Ev Charge Port Connected</string>
+  <string name="ev_open" translatable="false">Ev Charge Port Open</string>
+  <string name="accelerometer" translatable="false">Accelerometer</string>
+  <string name="gyroscope" translatable="false">Gyroscope</string>
+  <string name="compass" translatable="false">Compass</string>
+  <string name="car_hardware_location" translatable="false">Car Hardware Location</string>
+
+  <!-- GridTemplateDemoScreen -->
+  <string name="non_actionable" translatable="false">Non-actionable</string>
+  <string name="second_item" translatable="false">Second Item</string>
+  <string name="third_item" translatable="false">Third Item</string>
+  <string name="fourth_item" translatable="false">Fourth Item</string>
+  <string name="fifth_item" translatable="false">Fifth Item has a long title set</string>
+  <string name="sixth_item" translatable="false">Sixth Item has a long title set</string>
+  <string name="grid_template_demo_title" translatable="false">Grid Template Demo</string>
+
+  <!-- ListTemplateDemoScreen -->
+  <string name="parked_only_title" translatable="false">Parked Only Title</string>
+  <string name="parked_only_text" translatable="false">More Parked only text.</string>
+  <string name="clicked_row_prefix" translatable="false">Clicked row</string>
+  <string name="first_line_text" translatable="false">First line of text</string>
+  <string name="second_line_text" translatable="false">Second line of text</string>
+  <string name="long_line_text" translatable="false">This subtext can fully display in unrestricted mode (ex. parking mode, restricted low speed mode). But this will truncate to only two lines while in restricted mode (ex. driving mode). For testing purposes, this subtext is super super super super super long</string>
+  <string name="title_prefix" translatable="false">Title</string>
+  <string name="list_template_demo_title" translatable="false">List Template Demo</string>
+
+  <!-- LongMessageTemplateDemoScreen -->
+  <string name="long_msg_template_demo_title" translatable="false">Long Message Template Demo</string>
+  <string name="long_msg_template_text" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nAliquam laoreet ac metus eu commodo. Sed a congue diam, sed dictum lectus. Nam nec\ntristique dolor, quis sodales arcu. Etiam at metus eu nulla auctor varius. \nInteger dolor lorem, placerat sit amet lacus in, imperdiet semper dui. Vestibulum \nante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; \nQuisque gravida fermentum egestas.\n\n\n\nUt ut sodales mi. Aenean porta vel ipsum sed lacinia. Morbi odio ipsum, hendrerit \neu est et, sollicitudin finibus diam. Nunc sit amet felis elit. Orci varius \nnatoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed \nvestibulum, tellus a rutrum auctor, diam arcu vestibulum purus, nec mollis ligula \nnisi in nisi. Donec sem tortor, pharetra sed fermentum sit amet, ullamcorper nec \nsapien. Aliquam risus arcu, porttitor eu dui nec, vulputate tempus libero. \nCurabitur sit amet tristique orci. Suspendisse et odio tempus, tempus turpis quis,\n euismod est.\n\n\n\nVestibulum mauris ante, luctus viverra nisi eget, blandit facilisis nulla. \nPhasellus ex lorem, semper in vestibulum nec, aliquet vel elit. Aliquam vitae \nligula nec enim dictum lobortis. Sed varius turpis quis nisi tempus varius. Sed \nnon sollicitudin magna, at mattis tortor. Curabitur quis ligula eget lorem mattis \ntincidunt et in sapien. Curabitur a elit nisi. Aliquam ex arcu, hendrerit eget \nturpis vitae, bibendum vulputate nibh. Fusce vitae ex aliquet, tristique magna eu,\n vulputate dui. Aenean tempor viverra tortor non pharetra. Pellentesque convallis \nnec risus a auctor. Praesent non sem non eros tincidunt ullamcorper efficitur non \nlacus.\n\n\n\nSuspendisse accumsan ultricies egestas. Aenean leo ligula, congue ac erat eu, \nlobortis ultricies lorem. Nulla finibus, arcu sed tincidunt lobortis, magna justo \nrutrum ligula, et mattis felis turpis vel ex. Morbi ac auctor ex, at bibendum sem.\n Vestibulum a tortor iaculis, viverra felis vitae, lobortis est. Duis sit amet \ncondimentum sem. Ut molestie, dolor pretium imperdiet maximus, enim orci porta \nquam, id gravida enim nunc vitae lacus. Pellentesque habitant morbi tristique \nsenectus et netus et malesuada fames ac turpis egestas. Nullam vel justo eu risus \nlobortis dignissim sit amet ullamcorper nulla. Donec finibus cursus purus \nporttitor pellentesque.\n\n\n\nDonec at vehicula ante. Suspendisse rutrum nisl quis metus faucibus lacinia. \nVestibulum eros sapien, eleifend nec accumsan a, interdum sed nisi. Aenean posuere\n ultrices lorem non pharetra. Nulla non porta ligula. Maecenas at elit diam. \nNullam gravida augue et semper eleifend. Fusce venenatis ac arcu et luctus. Mauris\n ultricies urna non dui interdum, vel hendrerit est aliquam. Fusce id dictum leo, \nfringilla egestas ipsum.</string>
+  <string name="long_msg_template_not_supported_text" translatable="false">Your host doesn\'t support Long Message template</string>
+  <string name="long_msg_template_not_supported_title" translatable="false">Incompatible host</string>
+
+  <!-- MessageTemplateDemoScreen -->
+  <string name="msg_template_demo_title" translatable="false">Message Template Demo</string>
+  <string name="msg_template_demo_text" translatable="false">Message goes here.\nMore text on second line.</string>
+  <string name="short_msg_template_demo_title" translatable="false">Short Message Template Demo</string>
+
+  <!-- PaneTemplateDemoScreen -->
+  <string name="pane_template_demo_title" translatable="false">Pane Template Demo</string>
+
+  <!-- PlaceListTemplateBrowseDemoScreen -->
+  <string name="place_list_template_demo_title" translatable="false">Place List Template Demo</string>
+  <string name="browse_places_title" translatable="false">Browse Places</string>
+
+  <!-- SearchTemplateDemoScreen -->
+  <string name="search_template_demo_title" translatable="false">Search Template Demo</string>
+  <string name="search_hint" translatable="false">Search here</string>
+
+  <!-- SignInTemplateDemoScreen -->
+  <string name="additional_text" translatable="false">Please review our <annotation link="terms_of_service" translatable="false">terms of service</annotation></string>
+  <string name="google_sign_in" translatable="false">Google sign-in</string>
+  <string name="use_pin" translatable="false">Use PIN</string>
+  <string name="qr_code" translatable="false">QR Code</string>
+  <string name="sign_in_template_not_supported_text" translatable="false">Your host doesn\'t support Sign In template</string>
+  <string name="sign_in_template_not_supported_title" translatable="false">Incompatible host</string>
+  <string name="email_hint" translatable="false">Email</string>
+  <string name="sign_in_title" translatable="false">Sign in</string>
+  <string name="sign_in_instructions" translatable="false">Enter your credentials</string>
+  <string name="invalid_email_error_msg" translatable="false">User name must be a valid email address</string>
+  <string name="invalid_length_error_msg" translatable="false">User name must be at least %s characters long</string>
+  <string name="invalid_password_error_msg" translatable="false">Invalid password</string>
+  <string name="password_hint" translatable="false">password</string>
+  <string name="password_sign_in_instruction_prefix" translatable="false">Username</string>
+  <string name="pin_sign_in_instruction" translatable="false">Type this PIN in your phone</string>
+  <string name="qr_code_sign_in_title" translatable="false">Scan QR Code to sign in</string>
+  <string name="sign_in_with_google_title" translatable="false">Sign in with Google</string>
+  <string name="provider_sign_in_instruction" translatable="false">Use this button to complete your Google sign-in</string>
+  <string name="sign_in_complete_text" translatable="false">You are signed in!</string>
+  <string name="sign_in_complete_title" translatable="false">Sign in completed</string>
+  <string name="sign_in_template_demo_title" translatable="false">Sign In Template Demo</string>
+
+  <!-- TabTemplateScreen -->
+  <string name="tab_template_layouts_demo_title" translatable="false">Tab Template Demos</string>
+  <string name="tab_template_demo_title" translatable="false">Tab Template Demo</string>
+  <string name="tab_title_message" translatable="false">Message Tab</string>
+  <string name="tab_title_pane" translatable="false">Pane Tab</string>
+  <string name="tab_title_list" translatable="false">List Tab</string>
+  <string name="tab_title_grid" translatable="false">Grid Tab with Long Tab Title</string>
+  <string name="tab_title_search" translatable="false">Search Tab</string>
+  <string name="tab_title_loading" translatable="false">Loading Tab</string>
+  <string name="tab_template_loading_demo_title" translatable="false">Tab Template Loading Demo</string>
+  <string name="tab_template_no_tabs_demo_title" translatable="false">Tab Template No Tabs Demo</string>
+
+  <!-- ContentProviderIconsDemoScreen -->
+  <string name="images_unknown_host_error" translatable="false">Images cannot be displayed for an unknown host</string>
+  <string name="icon_title_prefix" translatable="false">Icon</string>
+  <string name="content_provider_icons_demo_title" translatable="false">Content Provider Icons Demo</string>
+
+  <!-- IconsDemoScreen -->
+  <string name="icons_demo_title" translatable="false">Icons Demo</string>
+  <string name="app_icon_title" translatable="false">The app icon</string>
+  <string name="vector_no_tint_title" translatable="false">A vector drawable, without a tint</string>
+  <string name="vector_with_tint_title" translatable="false">A vector drawable, with a tint</string>
+  <string name="vector_with_app_theme_attr_title" translatable="false">A vector drawable, with an app\'s theme attribute for its color</string>
+  <string name="png_res_title" translatable="false">A PNG, sent as a resource</string>
+  <string name="png_bitmap_title" translatable="false">A PNG, sent as a bitmap</string>
+
+  <!-- RowDemoScreen -->
+  <string name="just_row_title" translatable="false">Just a title</string>
+  <string name="title_with_app_icon_row_title" translatable="false">Title with app icon</string>
+  <string name="title_with_res_id_image_row_title" translatable="false">Title with resource ID image</string>
+  <string name="title_with_svg_image_row_title" translatable="false">Title with SVG image</string>
+  <string name="colored_secondary_row_title" translatable="false">Colored secondary text</string>
+  <string name="title_with_secondary_lines_row_title" translatable="false">Title with multiple secondary text lines</string>
+  <string name="title_with_secondary_lines_row_text_1" translatable="false">Err and err and err again, but less and less and less.</string>
+  <string name="title_with_secondary_lines_row_text_2" translatable="false">- Piet Hein</string>
+  <string name="rows_demo_title" translatable="false">Rows Demo</string>
+
+  <!-- TextAndIconsDemosScreen -->
+  <string name="text_icons_demo_title" translatable="false">Text and Icons Demos</string>
+  <string name="row_text_icons_demo_title" translatable="false">Rows with Text and Icons Demo</string>
+
+  <!-- SelectableListsDemoScreen -->
+  <string name="radio_button_list_demo_title" translatable="false">Radio Button Lists Demo</string>
+  <string name="selectable_lists_demo_title" translatable="false">Selectable Lists Demo</string>
+  <string name="option_1_title" translatable="false">Option 1</string>
+  <string name="option_2_title" translatable="false">Option 2</string>
+  <string name="option_3_title" translatable="false">Option 3</string>
+  <string name="option_row_radio_title" translatable="false">Row with Radio Button</string>
+  <string name="option_row_radio_icon_title" translatable="false">Row with Radio Button and Icon</string>
+  <string name="option_row_radio_icon_colored_text_title" translatable="false">Row with Radio Button and Icon and Colored Text</string>
+  <string name="some_additional_text" translatable="false">Some additional text</string>
+  <string name="sample_additional_list" translatable="false">Sample selectable list</string>
+
+  <!-- TaskRestrictionDemoScreen -->
+  <string name="task_restriction_demo_title" translatable="false">Task Restriction Demo</string>
+  <string name="task_limit_reached_msg" translatable="false">This will overflow the step count, and lead you to a new screen. </string>
+  <string name="task_step_of_title" translatable="false">Task step %1$d of %2$d</string>
+  <string name="task_step_of_text" translatable="false">Click to go forward</string>
+  <string name="task_content_allowed" translatable="false">Please visit the different templates and ensure the car is in driving mode</string>
+
+  <!-- ToggleButtonDemoScreen -->
+  <string name="toggle_button_demo_title" translatable="false">Toggle Button Demo</string>
+  <string name="toggle_test_title" translatable="false">Toggle test</string>
+  <string name="toggle_test_text" translatable="false">Stateful changes are allowed</string>
+  <string name="toggle_test_first_toggle_title" translatable="false">Enable Toggle Test</string>
+  <string name="toggle_test_first_toggle_text" translatable="false">Check this one to enable the toggle test</string>
+  <string name="toggle_test_second_toggle_title" translatable="false">Toggle test</string>
+  <string name="toggle_test_second_toggle_text" translatable="false">Stateful changes are allowed</string>
+  <string name="image_test_title" translatable="false">Image test</string>
+  <string name="image_test_text" translatable="false">Image changes are allowed</string>
+  <string name="additional_data_title" translatable="false">Additional Data</string>
+  <string name="additional_data_text" translatable="false">Updates allowed on back operations.</string>
+  <string name="toggle_test_enabled" translatable="false">Toggle Test Enabled</string>
+  <string name="toggle_test_disabled" translatable="false">Toggle Test Disabled</string>
+
+  <!--SecondaryActionsAndDecorationDemoScreen -->
+  <string name="secondary_actions_decoration_button_demo_title" translatable="false">Secondary Action and Decoration Demo</string>
+  <string name="secondary_actions_test_title" translatable="false">Secondary Action Test</string>
+  <string name="secondary_actions_test_subtitle" translatable="false">Only the secondary action can be selected</string>
+  <string name="decoration_test_title" translatable="false">Decoration Test</string>
+  <string name="secondary_actions_decoration_test_title" translatable="false">Secondary Actions and Decoration</string>
+  <string name="secondary_actions_decoration_test_title_long" translatable="false">Row with Secondary Actions and Decoration with a really long title</string>
+  <string name="secondary_actions_decoration_test_subtitle" translatable="false">The row can also be selected</string>
+  <string name="secondary_action_toast" translatable="false">Secondary Action is selected</string>
+  <string name="row_primary_action_toast" translatable="false">Row primary action is selected</string>
+
+
+  <!--SectionedItemListDemoScreen -->
+  <string name="sectioned_item_list_demo_title" translatable="false">Sectioned Item List Demo</string>
+  <string name="sectioned_item_list_one_title" translatable="false">List 1</string>
+  <string name="sectioned_item_list_two_title" translatable="false">List 2</string>
+  <string name="sectioned_item_list_subtext" translatable="false">Subtext under each list</string>
+
+  <!-- EmptyListDemoScreen -->
+  <string name="empty_list_demo_title" translatable="false">Empty List Demo</string>
+  <string name="empty_list_message" translatable="false">The list is empty</string>
+
+  <!-- StartScreen -->
+  <string name="misc_templates_demos_title" translatable="false">Misc Templates Demos</string>
+  <string name="cal_api_level_prefix" translatable="false">CAL API Level: %d</string>
+  <string name="showcase_demos_title" translatable="false">Showcase Demos</string>
+  <string name="template_layouts_demo_title" translatable="false">Template Layout Demos</string>
+  <string name="grid_template_menu_demo_title" translatable="false">Grid Template Demos</string>
+
+  <!-- User Interactions Screen -->
+  <string name="voice_access_demo_title" translatable="false">Voice Access Demo Screen</string>
+  <string name="user_interactions_demo_title" translatable="false">User Interactions</string>
+  <string name="request_permission_menu_demo_title" translatable="false">Request Permissions Demos</string>
+
+  <!-- Task Overflow Demo Screen -->
+  <string name="application_overflow_title" translatable="false">Application Overflow Validator</string>
+  <string name="application_overflow_subtitle1" translatable="false">Please test the following templates while changing</string>
+  <string name="application_overflow_subtitle2" translatable="false">the vehicle from parked to driving state</string>
+
+  <!-- Manifest file permissions -->
+  <string name="perm_group" translatable="false">Permission Group</string>
+  <string name="perm_group_description" translatable="false">Permission Group for Showcase App</string>
+  <string name="perm_fine_location" translatable="false">Access to Fine Location</string>
+  <string name="perm_fine_location_desc" translatable="false">Permission for Access to Fine Location</string>
+  <string name="perm_coarse_location" translatable="false">Access to Coarse Location</string>
+  <string name="perm_coarse_location_desc" translatable="false">Permission for Access to Coarse Location</string>
+  <string name="perm_record_audio" translatable="false">Access to Record Audio</string>
+  <string name="perm_record_audio_desc" translatable="false">Permission for Access to Record Audio</string>
+
+  <!-- Location Strings -->
+  <string name="location_1_title" translatable="false">Google Kirkland</string>
+  <string name="location_1_address" translatable="false">747 6th St South, Kirkland, WA 98033</string>
+  <string name="location_1_description" translatable="false">Tinted resource vector</string>
+  <string name="location_1_phone" translatable="false">+14257395600</string>
+  <string name="location_2_title" translatable="false">Google Bellevue</string>
+  <string name="location_2_address" translatable="false">1120 112th Ave NE, Bellevue, WA 98004</string>
+  <string name="location_2_description" translatable="false">Image resource bitmap</string>
+  <string name="location_2_phone" translatable="false">+14252301301</string>
+  <string name="location_3_title" translatable="false">Google South Lake Union</string>
+  <string name="location_3_address" translatable="false">1021 Valley St, Seattle, WA 98109</string>
+  <string name="location_3_description" translatable="false">Colored text marker</string>
+  <string name="location_3_phone" translatable="false">+12065311800</string>
+  <string name="location_4_title" translatable="false">Google Seattle</string>
+  <string name="location_4_address" translatable="false">601 N 34th St, Seattle, WA 98103</string>
+  <string name="location_4_description" translatable="false">Image bitmap</string>
+  <string name="location_4_phone" translatable="false">+12068761800</string>
+  <string name="location_5_address" translatable="false">1600 Amphitheatre Pkwy, Mountain View, CA 94043</string>
+  <string name="location_5_phone" translatable="false">+16502530000</string>
+  <string name="location_6_title" translatable="false">Google Bothell</string>
+  <string name="location_6_address" translatable="false">11831 North Creek Pkwy, Bothell, WA 98011</string>
+  <string name="location_7_title" translatable="false">Seward Park</string>
+  <string name="location_7_address" translatable="false">5900 Lake Washington Blvd S, Seattle, WA 98118</string>
+  <string name="location_8_title" translatable="false">Luther Burbank Park</string>
+  <string name="location_8_address" translatable="false">2040 84th Ave SE, Mercer Island, WA 98040</string>
+  <string name="location_9_title" translatable="false">Heritage Park</string>
+  <string name="location_9_address" translatable="false">111 Waverly Way, Kirkland, WA 98033</string>
+  <string name="location_description_text_label" translatable="false">Text label</string>
+  <string name="location_phone_not_available" translatable="false">n/a</string>
+
+  <string name="parking_vs_driving_demo_title" translatable="false">Parking Vs Driving Demo</string>
+  <string name="latest_feature_details" translatable="false">Cluster Displays in cars!</string>
+  <string name="latest_feature_title" translatable="false">Latest Features</string>
+  <string name="loading_toggle_enabled" translatable="false">Loading enabled</string>
+  <string name="loading_toggle_disabled" translatable="false">Loading disabled</string>
+  <string name="loading_screen" translatable="false">Loading screen</string>
+  <string name="vector_toggle_details" translatable="false">Toggle to add/remove color</string>
+  <string name="map_template_toggle_demo_title" translatable="false">Map Template with Toggles</string>
+  <string name="avoid_tolls_row_title" translatable="false">Avoid tolls</string>
+  <string name="route_options_demo_title" translatable="false">Route options</string>
+  <string name="avoid_highways_row_title" translatable="false">Avoid highways</string>
+  <string name="avoid_ferries_row_title" translatable="false">Avoid ferry</string>
+  <string name="map_demos_title" translatable="false">Map Demos</string>
+  <string name="map_with_content_demo_title" translatable="false">Map With Content Demos</string>
+  <string name="map_with_message_demo_title" translatable="false">Map With Message Template Demo</string>
+  <string name="map_with_grid_demo_title" translatable="false">Map With Grid Template Demo</string>
+
 </resources>
+
